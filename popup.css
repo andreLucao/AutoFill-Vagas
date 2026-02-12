@@ -78,13 +78,16 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="url"] {
+input[type="url"],
+input[type="date"],
+select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
   transition: border-color 0.3s;
+  background: white;
 }
 
 input:focus {
