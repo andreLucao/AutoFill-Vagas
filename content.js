@@ -8,7 +8,13 @@
   // Mapeamento de campos comuns em formulários de cadastro
   const fieldMappings = {
     // Nome
-    nome: ['name', 'nome', 'fullname', 'full-name', 'full_name', 'nome-completo', 'nome_completo', 'candidate-name', 'candidatename', 'first name', 'last name'],
+    nome: ['name', 'nome', 'fullname', 'full-name', 'full_name', 'nome-completo', 'nome_completo', 'candidate-name', 'candidatename'],
+
+    // Primeiro Nome
+    primeiroNome: ['first-name', 'first_name', 'firstname', 'primeiro-nome', 'primeiro_nome', 'primeironome', 'given-name', 'given_name', 'givenname', 'fname'],
+
+    // Último Nome
+    ultimoNome: ['last-name', 'last_name', 'lastname', 'ultimo-nome', 'ultimo_nome', 'ultimonome', 'family-name', 'family_name', 'familyname', 'surname', 'lname'],
     
     // Email
     email: ['email', 'e-mail', 'mail', 'correo', 'emailaddress', 'email-address', 'email_address'],
